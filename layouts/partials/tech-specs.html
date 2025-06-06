@@ -1,0 +1,13 @@
+<div class="tech-specs">
+  <h3>技术规格</h3>
+  <ul>
+    {{ with .Site.Params.tech_specs }}
+      {{ range $key, $value := . }}
+        <li>
+          <strong>{{ $key | humanize }}:</strong>
+          {{ delimit $value ", " }}
+        </li>
+      {{ end }}
+    {{ end }}
+  </ul>
+</div>

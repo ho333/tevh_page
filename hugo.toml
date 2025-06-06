@@ -1,19 +1,19 @@
 baseURL = "http://example.com"
-title = "My Happy Little Shop"
-author = "John Doe"
+title = "TEVH"
+author = "TEVH"
 theme = "simple-snipcart-shop"
 contentDir = "products"
+
 [params]
-  instagram = "example_handle"
-  header = "Welcome to My Happy Little Shop!"
-  description = "We make stuff and things"
-  products_title = "Our stuff"
-  reviews_title = "Our reviews"
-  not_found = "Sorry, but we do not have any products in this category yet."
+  instagram = "tevh_tech"
+  header = "探索视觉极限"
+  description = "TEVH专注高端显示技术，提供4K/8K超高清、广色域覆盖与超低延迟的专业显示解决方案"
+  products_title = "TEVH产品系列"
+  reviews_title = "用户见证"
+  not_found = "当前分类暂无产品"
   categories = [
-    "For you",
-    "For the home",
-    "For the friends"
+    "电竞系列",
+    "专业设计",
   ]
   collage = [
     "/images/collage-1.jpg",
@@ -30,3 +30,10 @@ contentDir = "products"
   snipcart_key = ""
   favicon= "/images/favicon.png"
 
+[params.tech_specs]
+  resolutions = ["4K UHD", "2K QHD", "1080p FHD"]
+  refresh_rates = ["240Hz", "144Hz", "75Hz"]
+  panel_types = ["IPS", "VA", "TN"]
+  response_times = ["1ms", "4ms", "8ms"]  # 新增响应时间参数
+  brightness = ["400nits", "600nits"]     # 新增亮度参数
+  contrast = ["1000:1", "3000:1"]        # 新增对比度参数

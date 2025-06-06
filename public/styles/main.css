@@ -72,13 +72,21 @@ header {
     header .container .right-stuff div:first-child {
       margin-bottom: 1rem; }
   header img {
-    width: 125px; }
+    width: 60px; }
   header a {
     color: #01050d; }
 
 footer {
   padding: 2rem 0;
-  border-top: 5px solid #8db38bff; }
+  position: relative; }
+  footer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #f9f3f1ff, #8db38bff 15%, #8db38bff 85%, #f9f3f1ff); }
   footer p {
     margin-top: 0;
     text-align: center; }
